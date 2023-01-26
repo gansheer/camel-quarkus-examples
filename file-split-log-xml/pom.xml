@@ -94,6 +94,12 @@
             <artifactId>camel-quarkus-file</artifactId>
         </dependency>
 
+        <!-- build -->
+        <dependency>
+        <groupId>io.quarkus</groupId>
+        <artifactId>quarkus-container-image-jib</artifactId>
+        </dependency>
+
         <!-- Test -->
         <dependency>
             <groupId>io.quarkus</groupId>
